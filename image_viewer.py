@@ -2,6 +2,7 @@ from tkinter import *
 from PIL import ImageTk,Image
 
 root = Tk()
+root.title("Image Viewer")
 
 p1 = ImageTk.PhotoImage(Image.open("G:\E drive\Code\Tkinter\Image_Viewer\photos\\abcd1.jpeg"))
 
